@@ -1,28 +1,29 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const Profile = (username, tag, location, avatar, stats) => {
+const Profile = ({ username, tag, location, avatar, stats }) => {
+  console.log('stats:', stats);
   return (
-    <div class="profile">
-      <div class="description">
-        <img src={avatar} alt={username} class="avatar" />
-        <p class="name">{username}</p>
-        <p class="tag">{tag}</p>
-        <p class="location">{location}</p>
+    <div className="profile">
+      <div className="description">
+        <img src={avatar} alt={username} className="avatar" />
+        <p className="name">{username}</p>
+        <p className="tag">{tag}</p>
+        <p className="location">{location}</p>
       </div>
 
-      <ul class="stats">
+      <ul className="stats">
         <li>
-          <span class="label">Followers</span>
-          <span class="quantity">{stats.followers}</span>
+          <span className="label">Followers</span>
+          <span className="quantity">{stats.followers}</span>
         </li>
         <li>
-          <span class="label">Views</span>
-          <span class="quantity">{stats.views}</span>
+          <span className="label">Views</span>
+          <span className="quantity">{stats.views}</span>
         </li>
         <li>
-          <span class="label">Likes</span>
-          <span class="quantity">{stats.likes}</span>
+          <span className="label">Likes</span>
+          <span className="quantity">{stats.likes}</span>
         </li>
       </ul>
     </div>
@@ -34,7 +35,11 @@ Profile.propTypes = {
   tag: PropTypes.string.isRequired,
   location: PropTypes.string.isRequired,
   avatar: PropTypes.string.isRequired,
-  stats: PropTypes.arrayOf(PropTypes.number),
+  stats: PropTypes.shape({
+    followers: PropTypes.number.isRequired,
+    views: PropTypes.number.isRequired,
+    likes: PropTypes.number.isRequired,
+  }).isRequired,
 };
 
 export default Profile;
