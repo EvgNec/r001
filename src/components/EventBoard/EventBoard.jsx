@@ -1,10 +1,9 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+import css from './EventBoard.module.css';
 
-function EventBoard(props) {
-  return <div></div>;
+function EventBoard({ events }) {
+  console.log(events);
+  return <div className={css.eventBoard}>Event card</div>;
 }
-
-EventBoard.propTypes = {};
 
 export default EventBoard;
