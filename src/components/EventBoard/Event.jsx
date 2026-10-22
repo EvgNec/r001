@@ -7,8 +7,12 @@ import {
   FaCalendarAlt,
   FaClock,
 } from 'react-icons/fa';
+import { formatEventStart } from 'utils/formatEventStart';
+import { formatEventDuration } from 'utils/formatEventStart';
 
 function Event({ name, location, speaker, type, start, end }) {
+  const formattedStart = formatEventStart(start);
+  const duration = formatEventDuration(start, end);
   return (
     <div>
       {' '}
