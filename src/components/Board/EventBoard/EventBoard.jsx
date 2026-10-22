@@ -1,7 +1,7 @@
 import React from 'react';
 import css from './EventBoard.module.css';
 import PropTypes from 'prop-types';
-import Event from 'components/EventBoard/Event';
+import Event from 'components/Board/Event/Event';
 
 function EventBoard({ events }) {
   return (

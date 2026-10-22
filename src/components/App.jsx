@@ -1,6 +1,6 @@
 import user from '../user.json';
 import Profile from './Profile/Profile';
-import Board from './EventBoard/Board';
+import Board from './Board/Board';
 
 export const App = () => {
   return (
