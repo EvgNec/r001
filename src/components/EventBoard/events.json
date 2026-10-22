@@ -1,0 +1,183 @@
+
+[
+  {
+    "name": "Introduction to JavaScript",
+    "location": "Conference Hall A",
+    "speaker": "John Smith",
+    "type": "free",
+    "time": {
+      "start": "2026-10-26T09:00:00",
+      "end": "2026-10-26T10:30:00"
+    }
+  },
+  {
+    "name": "React Fundamentals",
+    "location": "Room 101",
+    "speaker": "Anna Wilson",
+    "type": "paid",
+    "time": {
+      "start": "2026-10-26T11:00:00",
+      "end": "2026-10-26T13:00:00"
+    }
+  },
+  {
+    "name": "Modern Web Development",
+    "location": "Conference Hall B",
+    "speaker": "Michael Brown",
+    "type": "free",
+    "time": {
+      "start": "2026-10-26T14:00:00",
+      "end": "2026-10-26T15:30:00"
+    }
+  },
+  {
+    "name": "Advanced JavaScript",
+    "location": "Room 102",
+    "speaker": "David Clark",
+    "type": "paid",
+    "time": {
+      "start": "2026-10-27T09:00:00",
+      "end": "2026-10-27T11:00:00"
+    }
+  },
+  {
+    "name": "React Hooks",
+    "location": "Conference Hall A",
+    "speaker": "Emily Davis",
+    "type": "free",
+    "time": {
+      "start": "2026-10-27T11:30:00",
+      "end": "2026-10-27T13:00:00"
+    }
+  },
+  {
+    "name": "Node.js Basics",
+    "location": "Room 103",
+    "speaker": "Robert Miller",
+    "type": "paid",
+    "time": {
+      "start": "2026-10-27T14:00:00",
+      "end": "2026-10-27T16:00:00"
+    }
+  },
+  {
+    "name": "REST API Development",
+    "location": "Conference Hall B",
+    "speaker": "Sarah Johnson",
+    "type": "free",
+    "time": {
+      "start": "2026-10-28T09:00:00",
+      "end": "2026-10-28T10:30:00"
+    }
+  },
+  {
+    "name": "Working with Databases",
+    "location": "Room 101",
+    "speaker": "James Anderson",
+    "type": "paid",
+    "time": {
+      "start": "2026-10-28T11:00:00",
+      "end": "2026-10-28T13:00:00"
+    }
+  },
+  {
+    "name": "Git and GitHub",
+    "location": "Room 102",
+    "speaker": "Olivia Taylor",
+    "type": "free",
+    "time": {
+      "start": "2026-10-28T14:00:00",
+      "end": "2026-10-28T15:30:00"
+    }
+  },
+  {
+    "name": "TypeScript Essentials",
+    "location": "Conference Hall A",
+    "speaker": "Daniel White",
+    "type": "free",
+    "time": {
+      "start": "2026-10-29T09:00:00",
+      "end": "2026-10-29T10:30:00"
+    }
+  },
+  {
+    "name": "React Router",
+    "location": "Room 103",
+    "speaker": "Sophia Martin",
+    "type": "paid",
+    "time": {
+      "start": "2026-10-29T11:00:00",
+      "end": "2026-10-29T13:00:00"
+    }
+  },
+  {
+    "name": "Frontend Performance",
+    "location": "Conference Hall B",
+    "speaker": "Thomas Lee",
+    "type": "free",
+    "time": {
+      "start": "2026-10-29T14:00:00",
+      "end": "2026-10-29T15:30:00"
+    }
+  },
+  {
+    "name": "Docker for Developers",
+    "location": "Room 101",
+    "speaker": "Alex Green",
+    "type": "paid",
+    "time": {
+      "start": "2026-10-30T09:00:00",
+      "end": "2026-10-30T11:00:00"
+    }
+  },
+  {
+    "name": "Testing React Applications",
+    "location": "Room 102",
+    "speaker": "Emma Scott",
+    "type": "free",
+    "time": {
+      "start": "2026-10-30T11:30:00",
+      "end": "2026-10-30T13:00:00"
+    }
+  },
+  {
+    "name": "CI/CD Fundamentals",
+    "location": "Conference Hall A",
+    "speaker": "William Harris",
+    "type": "paid",
+    "time": {
+      "start": "2026-10-30T14:00:00",
+      "end": "2026-10-30T16:00:00"
+    }
+  },
+  {
+    "name": "Cloud Computing",
+    "location": "Conference Hall B",
+    "speaker": "Noah Thompson",
+    "type": "free",
+    "time": {
+      "start": "2026-10-31T09:00:00",
+      "end": "2026-10-31T10:30:00"
+    }
+  },
+  {
+    "name": "Full Stack Workshop",
+    "location": "Room 103",
+    "speaker": "Isabella Moore",
+    "type": "paid",
+    "time": {
+      "start": "2026-10-31T11:00:00",
+      "end": "2026-10-31T13:00:00"
+    }
+  },
+  {
+    "name": "Future of Web Development",
+    "location": "Conference Hall A",
+    "speaker": "Lucas Walker",
+    "type": "free",
+    "time": {
+      "start": "2026-10-31T14:00:00",
+      "end": "2026-10-31T15:30:00"
+    }
+  }
+]
