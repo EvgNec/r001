@@ -1,0 +1,112 @@
+[
+  {
+    "username": "Jacques Gluke",
+    "tag": "jgluke",
+    "location": "Ocho Rios, Jamaica",
+    "avatar": "https://cdn-icons-png.flaticon.com/512/2922/2922506.png",
+    "stats": {
+      "followers": 5603,
+      "views": 4827,
+      "likes": 1308
+    }
+  },
+  {
+    "username": "Emily Johnson",
+    "tag": "emilyj",
+    "location": "London, United Kingdom",
+    "avatar": "https://cdn-icons-png.flaticon.com/512/2922/2922561.png",
+    "stats": {
+      "followers": 8420,
+      "views": 6120,
+      "likes": 2450
+    }
+  },
+  {
+    "username": "Michael Brown",
+    "tag": "mikebrown",
+    "location": "New York, USA",
+    "avatar": "https://cdn-icons-png.flaticon.com/512/2922/2922510.png",
+    "stats": {
+      "followers": 7200,
+      "views": 5430,
+      "likes": 1870
+    }
+  },
+  {
+    "username": "Sofia Martinez",
+    "tag": "sofiam",
+    "location": "Madrid, Spain",
+    "avatar": "https://cdn-icons-png.flaticon.com/512/2922/2922566.png",
+    "stats": {
+      "followers": 10500,
+      "views": 8900,
+      "likes": 4200
+    }
+  },
+  {
+    "username": "Oliver Wilson",
+    "tag": "oliverw",
+    "location": "Sydney, Australia",
+    "avatar": "https://cdn-icons-png.flaticon.com/512/2922/2922506.png",
+    "stats": {
+      "followers": 4300,
+      "views": 3200,
+      "likes": 980
+    }
+  },
+  {
+    "username": "Anna Schmidt",
+    "tag": "annas",
+    "location": "Berlin, Germany",
+    "avatar": "https://cdn-icons-png.flaticon.com/512/2922/2922561.png",
+    "stats": {
+      "followers": 9600,
+      "views": 7400,
+      "likes": 3100
+    }
+  },
+  {
+    "username": "Lucas Ferreira",
+    "tag": "lucasf",
+    "location": "Lisbon, Portugal",
+    "avatar": "https://cdn-icons-png.flaticon.com/512/2922/2922510.png",
+    "stats": {
+      "followers": 6100,
+      "views": 4900,
+      "likes": 1750
+    }
+  },
+  {
+    "username": "Isabella Rossi",
+    "tag": "isarossi",
+    "location": "Rome, Italy",
+    "avatar": "https://cdn-icons-png.flaticon.com/512/2922/2922566.png",
+    "stats": {
+      "followers": 12300,
+      "views": 10100,
+      "likes": 5600
+    }
+  },
+  {
+    "username": "Daniel Kim",
+    "tag": "danielk",
+    "location": "Seoul, South Korea",
+    "avatar": "https://cdn-icons-png.flaticon.com/512/2922/2922506.png",
+    "stats": {
+      "followers": 7800,
+      "views": 6500,
+      "likes": 2300
+    }
+  },
+  {
+    "username": "Olivia Taylor",
+    "tag": "oliviat",
+    "location": "Toronto, Canada",
+    "avatar": "https://cdn-icons-png.flaticon.com/512/2922/2922561.png",
+    "stats": {
+      "followers": 11200,
+      "views": 9200,
+      "likes": 4700
+    }
+  }
+]
