@@ -15,7 +15,6 @@ function Event({ name, location, speaker, type, start, end }) {
   const duration = formatEventDuration(start, end);
   return (
     <div>
-      {' '}
       <div className={css.event}>
         <h2 className={css.title}>{name}</h2>
         <p className={css.info}>
