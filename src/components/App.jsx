@@ -12,7 +12,7 @@ import Statistics from './Statistics/Statistics';
 export const App = () => {
   return (
     <div>
-      <Statistics data={data} />
+      <Statistics title="Upload stats" stats={data} />
       {/*       <div className="cardList">
         {verbs.map(item => (
           <CardTranslator
