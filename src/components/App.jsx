@@ -5,14 +5,14 @@ import ProfileList from './ProfileList/ProfileList';
 import users1 from './ProfileList/users.json';
 import CardTranslator from './CardTranslator/CardTranslator';
 import verbs from './CardTranslator/card.json'; */
-import data from './Statistics/data.json';
+/* import data from './Statistics/data.json'; */
 
 import Statistics from './Statistics/Statistics';
 
 export const App = () => {
   return (
     <div>
-      <Statistics title="Upload stats" stats={data} />
+      {/*       <Statistics title="Upload stats" stats={data} /> */}
       {/*       <div className="cardList">
         {verbs.map(item => (
           <CardTranslator
