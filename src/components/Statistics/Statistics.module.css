@@ -1,0 +1,67 @@
+.statistics {
+  width: 430px;
+  margin: 40px auto;
+  background-color: #ffffff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.title {
+  margin: 0;
+  padding: 40px 0;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #606b75;
+}
+
+.statList {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  flex: 1;
+  min-width: 0;
+  padding: 15px 0;
+
+  color: #ffffff;
+}
+
+.label {
+  margin-bottom: 8px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.percentage {
+  font-size: 26px;
+  font-weight: 400;
+}
+
+/* Кольори блоків */
+
+.color0 {
+  background-color: #4fc3f7;
+}
+
+.color1 {
+  background-color: #a735f5;
+}
+
+.color2 {
+  background-color: #e94b64;
+}
+
+.color3 {
+  background-color: #22b8c5;
+}

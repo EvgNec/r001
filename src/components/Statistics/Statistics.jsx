@@ -1,19 +1,22 @@
 import React from 'react';
+import styles from './Statistics.module.css';
 
 export default function Statistics({ title, stats }) {
   return (
-    <div>
-      <section className="statistics">
-        <h2 className="title">{title}</h2>
-        <ul className="stat-list">
-          {stats.map(({ id, label, percentage }) => (
-            <li className="item" key={id}>
-              <span className="label">{label}</span>
-              <span className="percentage">{percentage}%</span>
-            </li>
-          ))}
-        </ul>
-      </section>
-    </div>
+    <section className={styles.statistics}>
+      {title && <h2 className={styles.title}>{title}</h2>}
+
+      <ul className={styles.statList}>
+        {stats.map(({ id, label, percentage }, index) => (
+          <li
+            className={`${styles.item} ${styles[`color${index % 4}`]}`}
+            key={id}
+          >
+            <span className={styles.label}>{label}</span>
+            <span className={styles.percentage}>{percentage}%</span>
+          </li>
+        ))}
+      </ul>
+    </section>
   );
 }
