@@ -6,12 +6,16 @@ import users1 from './ProfileList/users.json';
 import CardTranslator from './CardTranslator/CardTranslator';
 import verbs from './CardTranslator/card.json'; */
 /* import data from './Statistics/data.json'; */
+import FriendList from './Friend/FriendList/FriendList';
+import friends from './friends.json';
 
-import Statistics from './Statistics/Statistics';
+/* import Statistics from './Statistics/Statistics'; */
 
 export const App = () => {
   return (
     <div>
+      <FriendList friends={friends} />
+
       {/*       <Statistics title="Upload stats" stats={data} /> */}
       {/*       <div className="cardList">
         {verbs.map(item => (
