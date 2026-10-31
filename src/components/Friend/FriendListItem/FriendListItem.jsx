@@ -1,5 +1,6 @@
 import React from 'react';
 import css from './FriendListItem.module.css';
+import PropTypes from 'prop-types';
 
 export default function FriendListItem({ friend }) {
   const { avatar, name, isOnline } = friend;
@@ -16,3 +17,12 @@ export default function FriendListItem({ friend }) {
     </li>
   );
 }
+
+FriendListItem.propTypes = {
+  friend: PropTypes.shape({
+    id: PropTypes.number.isRequired,
+    avatar: PropTypes.string.isRequired,
+    name: PropTypes.string.isRequired,
+    isOnline: PropTypes.bool.isRequired,
+  }).isRequired,
+};
