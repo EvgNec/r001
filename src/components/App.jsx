@@ -3,8 +3,6 @@ import Profile from './Profile/Profile';
 import Board from './Board/Board';
 import ProfileList from './ProfileList/ProfileList';
 import users1 from './ProfileList/users.json';
-import CardTranslator from './CardTranslator/CardTranslator';
-import verbs from './CardTranslator/card.json';
 import data from './Statistics/data.json';
 import FriendList from './Friend/FriendList/FriendList';
 import friends from './friends.json';
@@ -12,6 +10,8 @@ import Accordion from './Accordion/Accordion';
 import TransactionHistory from './TransactionHistory/TransactionHistory';
 import transactions from './TransactionHistory/transactions.json';
 import Statistics from './Statistics/Statistics';
+import verbs from './CardTranslator/verbs.json';
+import Card from './CardTranslator/Card';
 
 export const App = () => {
   return (
@@ -41,17 +41,7 @@ export const App = () => {
         <Board />
       </Accordion>
       <Accordion title="Словник">
-        <div className="cardList">
-          {verbs.map(item => (
-            <CardTranslator
-              key={item.id}
-              verb={item.verb}
-              translation={item.translation}
-              sentence={item.sentence}
-              sentenceTranslation={item.sentenceTranslation}
-            />
-          ))}
-        </div>
+        <Card verbs={verbs} />
       </Accordion>
     </div>
   );
