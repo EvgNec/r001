@@ -37,7 +37,7 @@ export const App = () => {
       <Accordion title="Профілi соціальної мережі">
         <ProfileList users2={users1} />
       </Accordion>
-      <Accordion title="Список друзів">
+      <Accordion title="Розклад">
         <Board />
       </Accordion>
       <Accordion title="Словник">
