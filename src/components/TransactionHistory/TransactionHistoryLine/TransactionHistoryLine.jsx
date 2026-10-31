@@ -1,12 +1,15 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import css from './TransactionHistoryLine.module.css';
+
 export default function TransactionHistoryLine({ item }) {
   const { type, amount, currency } = item;
+
   return (
-    <tr>
-      <td>{type}</td>
-      <td>{amount}</td>
-      <td>{currency}</td>
+    <tr className={css.row}>
+      <td className={css.cell}>{type}</td>
+      <td className={css.cell}>{amount}</td>
+      <td className={css.cell}>{currency}</td>
     </tr>
   );
 }

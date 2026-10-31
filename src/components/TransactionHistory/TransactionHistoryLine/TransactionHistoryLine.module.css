@@ -1,0 +1,18 @@
+.row {
+  background-color: #ffffff;
+  transition: background-color 0.2s ease;
+}
+
+.row:nth-child(odd) {
+  background-color: #eef8fd;
+}
+
+.row:hover {
+  background-color: #d5ebfa;
+}
+
+.cell {
+  padding: 12px 20px;
+  border-bottom: 1px solid #ddd;
+  color: #333;
+}
