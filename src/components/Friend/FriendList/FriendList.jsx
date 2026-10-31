@@ -1,16 +1,11 @@
 import React from 'react';
+import FriendListItem from '../FriendListItem/FriendListItem';
 
 export default function FriendList({ friends }) {
   return (
     <div>
       <ul class="friend-list">
-        {friends.map(({ avatar, name, isOnline, id }) => (
-          <li class="item" key={id}>
-            <span class="status"></span>
-            <img class="avatar" src={avatar} alt="User avatar" width="48" />
-            <p class="name">{name}</p>
-          </li>
-        ))}
+        <FriendListItem friends={friends} />
       </ul>
       {/* avatar, name, isOnline, id */}
       {/*         avatar={friends.avatar}
